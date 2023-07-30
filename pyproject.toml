@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "django-perfect-breadcrumbs"
+version = "0.1.0"
+description = ""
+authors = ["Josh Karamuth <hello@joshkaramuth.com>"]
+readme = "README.md"
+packages = [{include = "django_perfect_breadcrumbs"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
